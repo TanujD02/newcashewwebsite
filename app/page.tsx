@@ -24,7 +24,7 @@ export default function Home() {
           <div className="hero-fade" />
           <div className="hero-content relative z-10 mx-auto flex flex-col items-center text-center">
             <p className="hero-eyebrow">Organic. Authentic. Premium.</p>
-            <h1 id="hero-title"><span>Cashews</span><span className="hero-origin">From Kokan’s</span></h1>
+            <h1 id="hero-title"><span>Cashews</span><span className="hero-origin">From Kokan</span></h1>
             <a href={ORDER_URL} className="button button-yellow hero-button" target="_blank" rel="noopener noreferrer">
               <WhatsAppIcon className="button-icon" /> Order on WhatsApp
             </a>
