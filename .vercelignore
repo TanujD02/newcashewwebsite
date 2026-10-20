@@ -1,0 +1,6 @@
+reference-designs/
+README.md
+ASSETS.md
+*.tsbuildinfo
+.next/
+node_modules/
