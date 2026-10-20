@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
+import SmoothScroll from "@/components/SmoothScroll";
 
 const jakarta = localFont({
   src: [
@@ -41,8 +42,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" className={`${jakarta.variable} ${kalam.variable}`}>
       <body>
+      <SmoothScroll>
         <a href="#main" className="skip-link">Skip to content</a>
         {children}
+        </SmoothScroll>
         <Analytics />
       </body>
     </html>

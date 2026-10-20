@@ -262,3 +262,22 @@ button:focus-visible, .button:focus-visible { outline-offset: 4px; }
   .reveal-waiting { opacity: 1; translate: none; }
   .button:hover { transform: none; }
 }
+
+
+@media (pointer: fine) {
+  body {
+    cursor: url("/images/cashew-cursor.png") 16 16, auto;
+  }
+
+  a,
+  button {
+    cursor: pointer;
+  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
