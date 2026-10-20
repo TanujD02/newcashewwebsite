@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const jakarta = localFont({
   src: [
@@ -35,13 +36,16 @@ export const viewport: Viewport = {
   themeColor: "#FFFDE5",
 };
 
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${jakarta.variable} ${kalam.variable}`}>
       <body>
         <a href="#main" className="skip-link">Skip to content</a>
         {children}
+        <Analytics />
       </body>
     </html>
   );
 }
+
