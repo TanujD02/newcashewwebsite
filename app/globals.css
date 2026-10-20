@@ -109,13 +109,13 @@ button:focus-visible, .button:focus-visible { outline-offset: 4px; }
 .story-ribbons .outline-ribbon { color: transparent; -webkit-text-stroke: 1px rgba(18,60,44,.38); }
 .story-image { width: 450px; max-width: 90%; aspect-ratio: 450 / 464; position: relative; border-radius: 24px; overflow: hidden; box-shadow: 0 18px 30px rgba(18,60,44,.16); }
 .story-image img { object-position: 50% 50%; }
-.story-content h2 { margin: 48px 0 25px; max-width: 530px; font-size: 29px; font-weight: 800; line-height: 1.25; letter-spacing: -.035em; text-transform: uppercase; }
+.story-content h2 { margin: 48px 0 25px; max-width: 530px; font-size: 29px; font-weight: 800; line-height: 1.25; letter-spacing: -.035em; text-transform: none; }
 .instagram-button { font-size: 13px; min-height: 48px; padding: 13px 28px; box-shadow: 0 4px 5px rgba(18,60,44,.12); }
 .instagram-button .button-icon { width: 18px; height: 18px; }
 
 .help-section { background: var(--help-yellow); }
 .help-layout { display: grid; grid-template-columns: 1.2fr 1fr; gap: 60px; align-items: center; min-height: 668px; padding-block: 58px; }
-.help-copy h2 { font-size: clamp(46px, 5.5vw, 72px); line-height: 1.03; letter-spacing: -.05em; font-weight: 800; text-transform: uppercase; margin: 0 0 24px; }
+.help-copy h2 { font-size: clamp(46px, 5.5vw, 72px); line-height: 1.03; letter-spacing: -.05em; font-weight: 800; text-transform:none; margin: 0 0 24px; }
 .help-copy p { max-width: 540px; font-size: 19px; line-height: 1.5; margin-bottom: 4px; }
 .phone-link { display: flex; align-items: center; gap: 9px; width: fit-content; min-height: 48px; font-weight: 800; font-size: 24px; }
 .phone-icon { width: 18px; height: 18px; }
